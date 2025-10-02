@@ -1,1 +1,80 @@
 
+:root{
+  --bg:#0f1724; /* deep navy */
+  --panel:#071020; /* darker */
+  --muted:#9aa7bb;
+  --accent:#2b7be9; /* bright blue */
+  --accent-2:#1fb96b; /* green */
+  --glass: rgba(255,255,255,0.04);
+  --white: #ffffff;
+  --card: linear-gradient(180deg,#06203a,#041627);
+  --radius:12px;
+}
+
+/* Layout basics */
+*{box-sizing:border-box}
+html,body{height:100%; margin:0; font-family:Inter, system-ui, "Segoe UI", Roboto, Arial; background:var(--bg); color:var(--muted)}
+a{color:inherit}
+
+/* Topbar */
+.topbar{display:flex; justify-content:space-between; align-items:center; padding:12px 18px; background:linear-gradient(90deg, rgba(10,20,40,0.6), rgba(6,12,20,0.6)); border-bottom:1px solid rgba(255,255,255,0.03)}
+.logo{color:var(--white); font-weight:800; margin-right:18px}
+.tabs{display:inline-flex; gap:8px}
+.tab{background:transparent; color:var(--muted); border:none; padding:8px 12px; border-radius:10px; cursor:pointer; font-weight:700}
+.tab.active{background:rgba(255,255,255,0.04); color:var(--white)}
+.right{display:flex; gap:12px; align-items:center}
+.money{font-weight:900; color:var(--white); min-width:90px; text-align:right}
+.small{color:var(--muted); font-size:13px}
+.luck{background:linear-gradient(90deg,#0f1724,#05203a); color:var(--white); padding:8px 10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04)}
+
+/* Main container */
+main{max-width:1100px; margin:18px auto; padding:6px}
+
+/* Cards grid */
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px}
+.case-card{background:var(--panel); border-radius:12px; padding:12px; display:flex; flex-direction:column; align-items:center; gap:10px; border:1px solid rgba(255,255,255,0.03)}
+.case-card img{width:120px; height:120px; object-fit:cover; border-radius:10px}
+.case-card .title{color:var(--white); font-weight:800}
+.case-card .price{color:var(--muted)}
+
+/* Inventory */
+.inv-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:10px}
+.inv-card{background:var(--panel); padding:10px; border-radius:10px; display:flex; gap:10px; align-items:center; border:1px solid rgba(255,255,255,0.03)}
+.inv-card img{width:64px;height:64px;border-radius:8px}
+.inv-card .name{color:var(--white); font-weight:700}
+.inv-actions{display:flex; gap:8px; margin-top:8px}
+
+/* Case full-page view */
+.case-page{position:fixed; inset:0; background:linear-gradient(180deg, rgba(2,6,23,0.95), rgba(2,8,18,0.95)); color:var(--muted); z-index:999; display:flex; flex-direction:column}
+.case-top{display:flex; align-items:center; justify-content:space-between; padding:18px; border-bottom:1px solid rgba(255,255,255,0.03)}
+.case-title{color:var(--white); font-weight:900; font-size:22px}
+.case-body{padding:18px; display:flex; gap:18px; flex-direction:column; align-items:center}
+.scroller{width:100%; max-width:840px; height:140px; background:var(--glass); border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:flex-start; border:1px solid rgba(255,255,255,0.03)}
+.scroller-inner{display:flex; gap:8px; padding:10px; transform:translateX(0)}
+.scroller-item{min-width:160px; border-radius:10px; padding:10px; background:linear-gradient(180deg,#06283a,#041627); color:var(--white); text-align:center; border:2px solid transparent}
+
+/* rarity borders */
+.rarity-common{border-color: rgba(43,123,233,0.25)}
+.rarity-uncommon{border-color: rgba(139,92,246,0.25)}
+.rarity-rare{border-color: rgba(244,114,182,0.25)}
+.rarity-superrare{border-color: rgba(239,68,68,0.25)}
+.rarity-legendary{border-color: rgba(245,158,11,0.25)}
+
+/* open button */
+.open-row{margin-top:12px; display:flex; gap:12px; align-items:center}
+.btn{background:transparent; color:var(--white); padding:8px 12px; border-radius:10px; border:1px solid rgba(255,255,255,0.06); cursor:pointer; font-weight:800}
+.btn-primary{background:linear-gradient(90deg,var(--accent),#1161d6); border:none; box-shadow:0 8px 30px rgba(17,82,182,0.12)}
+
+/* item popup */
+.item-popup{position:fixed; left:50%; top:40%; transform:translate(-50%,-40%); z-index:1001; border-radius:14px; padding:12px; box-shadow:0 20px 60px rgba(2,6,23,0.6)}
+.popup-inner{display:flex; gap:12px; align-items:center}
+.popup-inner img{width:96px;height:96px; border-radius:10px; object-fit:cover}
+.popup-name{font-weight:900; color:var(--white)}
+.popup-price{color:var(--muted)}
+
+/* give each rarity a background tint for the popup via classes */
+.popup-common{background: linear-gradient(90deg,#0b2a46,#062037); border:1px solid rgba(43,123,233,0.18)}
+.popup-uncommon{background: linear-gradient(90deg,#0b2340,#062037); border:1px solid rgba(139,92,246,0.14)}
+.popup-rare{background: linear-gradient(90deg,#30132b,#351432); border:1px solid rgba(244,114,182,0.14)}
+.popup-superrare{background: linear-gradient(90deg,#3a0f0f,#2a0610); border:1px solid rgba(239,68,68,0.14)}
+.popup-legendary{background: linear-gradient(90deg,#3b2909,#2c1f07); border:1px solid rgba(245,158,11,0.14)}
