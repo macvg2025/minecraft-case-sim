@@ -1,95 +1,56 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
   <title>Minecraft Case Simulator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- TOPBAR -->
-  <header class="topbar">
-    <div class="left">
-      <div class="logo">Minecraft Case Simulator</div>
-      <nav class="tabs">
-        <button id="tabCases" class="tab active">Cases</button>
-        <button id="tabInventory" class="tab">Inventory</button>
-      </nav>
-    </div>
-    <div class="right">
-      <div id="dailyBadge" class="small">Daily: —</div>
-      <div id="moneyDisplay" class="money">--</div>
-      <button id="luckBtn" class="luck">Luck ↑</button>
-    </div>
-  </header>
 
-  <!-- MAIN CONTENT -->
-  <main id="main">
-    <!-- CASES GRID -->
-    <section id="casesView" class="view">
-      <div class="intro">
-        <h2>Cases</h2>
-        <p class="small">Click a case to view it full-screen. Open it to get a random item.</p>
-      </div>
-      <div id="casesGrid" class="grid"></div>
-    </section>
+  <!-- Loading screen -->
+  <div id="loading-screen">
+    <h1>Minecraft Case Simulator</h1>
+    <p>Loading...</p>
+  </div>
 
-    <!-- INVENTORY -->
-    <section id="inventoryView" class="view" style="display:none">
-      <div class="intro">
-        <h2>Inventory</h2>
-        <p class="small">Select items, then Sell or Sell All.</p>
-        <div class="inv-actions">
-          <button id="sellSelected" class="btn">Sell Selected</button>
-          <button id="sellAll" class="btn btn-primary">Sell All</button>
-        </div>
-      </div>
-      <div id="inventoryGrid" class="inv-grid"></div>
-    </section>
-  </main>
-
-  <!-- FULL-PAGE CASE VIEW (not a tiny popup; covers the whole screen) -->
-  <aside id="casePage" class="case-page" aria-hidden="true" style="display:none">
-    <div class="case-top">
-      <button id="caseBack" class="btn">← Back</button>
-      <div>
-        <div id="caseTitle" class="case-title">Case name</div>
-        <div id="caseCost" class="small">Price</div>
-      </div>
-      <div></div>
+  <!-- Game UI -->
+  <div id="game" style="display:none;">
+    <div id="top-bar">
+      <button onclick="switchTab('cases')">Cases</button>
+      <button onclick="switchTab('inventory')">Inventory</button>
+      <span id="money">$0</span>
+      <button id="luck-btn">Luck Increaser ✨</button>
     </div>
 
-    <div class="case-body">
-      <div class="scroller-wrap">
-        <div id="scroller" class="scroller">
-          <div id="scrollerInner" class="scroller-inner"></div>
-        </div>
-        <div class="open-row">
-          <button id="openCaseBtn" class="btn btn-primary">Open Case</button>
-          <div id="openMsg" class="small">Click to start the scroll.</div>
-        </div>
-      </div>
-
-      <div class="case-bottom">
-        <div id="lastWin" class="small">Last win: —</div>
-        <div id="resultPrice" class="small strong"></div>
-      </div>
+    <!-- Cases Page -->
+    <div id="cases-tab" class="tab">
+      <h2>Cases</h2>
+      <div id="cases-list"></div>
     </div>
-  </aside>
 
-  <!-- ITEM POPUP (small, styled, colored by rarity) -->
-  <div id="itemPopup" class="item-popup" style="display:none" aria-hidden="true">
-    <div id="popupInner" class="popup-inner">
-      <img id="popupImg" src="" alt="item" />
-      <div class="popup-text">
-        <div id="popupName" class="popup-name"></div>
-        <div id="popupPrice" class="popup-price"></div>
+    <!-- Case Open Page -->
+    <div id="case-open-page" style="display:none;">
+      <h2 id="case-title"></h2>
+      <div id="case-scroll-container">
+        <div id="case-scroll"></div>
       </div>
-      <button id="popupClose" class="btn">Ok</button>
+      <button id="open-case-btn">Open Case</button>
+      <button onclick="backToCases()">Back</button>
+    </div>
+
+    <!-- Inventory Page -->
+    <div id="inventory-tab" class="tab" style="display:none;">
+      <h2>Inventory</h2>
+      <div id="inventory-list"></div>
+      <button onclick="sellAll()">Sell All</button>
+    </div>
+
+    <!-- Reward Popup -->
+    <div id="reward-popup" style="display:none;">
+      <div id="reward-content"></div>
     </div>
   </div>
 
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
