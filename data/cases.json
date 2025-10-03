@@ -1,0 +1,269 @@
+{
+  "cases": [
+    {
+      "id": "resources",
+      "name": "Resources Case",
+      "price": 12,
+      "items": [
+        { "id": "coil", "name": "Coil", "rarity": "common", "min": 2, "max": 6, "image": "assets/items/resources/coil.png" },
+        { "id": "flint", "name": "Flint", "rarity": "common", "min": 3, "max": 8, "image": "assets/items/resources/flint.png" },
+
+        { "id": "iron", "name": "Iron", "rarity": "uncommon", "min": 10, "max": 16, "image": "assets/items/resources/iron.png" },
+        { "id": "slimeball", "name": "Slimeball", "rarity": "uncommon", "min": 10, "max": 16, "image": "assets/items/resources/slimeball.png" },
+        { "id": "redstone", "name": "Redstone", "rarity": "uncommon", "min": 12, "max": 22, "image": "assets/items/resources/redstone.png" },
+
+        { "id": "lapis_lazuli", "name": "Lapis Lazuli", "rarity": "rare", "min": 20, "max": 28, "image": "assets/items/resources/lapis_lazuli.png" },
+        { "id": "glowstone", "name": "Glowstone", "rarity": "rare", "min": 30, "max": 43, "image": "assets/items/resources/glowstone.png" },
+        { "id": "gold", "name": "Gold", "rarity": "rare", "min": 70, "max": 110, "image": "assets/items/resources/gold.png" },
+
+        { "id": "diamond", "name": "Diamond", "rarity": "superrare", "min": 280, "max": 450, "image": "assets/items/resources/diamond.png" },
+        { "id": "emerald", "name": "Emerald", "rarity": "superrare", "min": 380, "max": 600, "image": "assets/items/resources/emerald.png" },
+
+        { "id": "nether_star", "name": "Nether Star", "rarity": "legendary", "min": 800, "max": 1000, "image": "assets/items/resources/nether_star.png" }
+      ]
+    },
+
+    {
+      "id": "food",
+      "name": "Food Case",
+      "price": 30,
+      "items": [
+        { "id": "rotten_flesh", "name": "Rotten Flesh", "rarity": "common", "min": 2, "max": 5, "image": "assets/items/food/rotten_flesh.png" },
+        { "id": "bread", "name": "Bread", "rarity": "common", "min": 5, "max": 10, "image": "assets/items/food/bread.png" },
+        { "id": "watermelon", "name": "Watermelon", "rarity": "common", "min": 6, "max": 10, "image": "assets/items/food/watermelon.png" },
+        { "id": "carrot", "name": "Carrot", "rarity": "common", "min": 6, "max": 10, "image": "assets/items/food/carrot.png" },
+        { "id": "potato", "name": "Potato", "rarity": "common", "min": 7, "max": 12, "image": "assets/items/food/potato.png" },
+
+        { "id": "apple", "name": "Apple", "rarity": "uncommon", "min": 6, "max": 11, "image": "assets/items/food/apple.png" },
+        { "id": "chicken", "name": "Chicken", "rarity": "uncommon", "min": 20, "max": 34, "image": "assets/items/food/chicken.png" },
+        { "id": "beef", "name": "Beef", "rarity": "uncommon", "min": 20, "max": 34, "image": "assets/items/food/beef.png" },
+        { "id": "porkchop", "name": "Porkchop", "rarity": "uncommon", "min": 20, "max": 35, "image": "assets/items/food/porkchop.png" },
+        { "id": "mutton", "name": "Mutton", "rarity": "uncommon", "min": 22, "max": 36, "image": "assets/items/food/mutton.png" },
+
+        { "id": "mushroom", "name": "Mushroom", "rarity": "rare", "min": 120, "max": 280, "image": "assets/items/food/mushroom.png" },
+        { "id": "pumpkin_pie", "name": "Pumpkin Pie", "rarity": "rare", "min": 140, "max": 300, "image": "assets/items/food/pumpkin_pie.png" },
+
+        { "id": "cookie", "name": "Cookie", "rarity": "superrare", "min": 350, "max": 540, "image": "assets/items/food/cookie.png" },
+        { "id": "cake", "name": "Cake", "rarity": "superrare", "min": 350, "max": 540, "image": "assets/items/food/cake.png" },
+        { "id": "poisonous_potato", "name": "Poisonous Potato", "rarity": "superrare", "min": 370, "max": 560, "image": "assets/items/food/poisonous_potato.png" },
+
+        { "id": "golden_carrot", "name": "Golden Carrot", "rarity": "legendary", "min": 640, "max": 800, "image": "assets/items/food/golden_carrot.png" },
+        { "id": "glistering_watermelon", "name": "Glistering Watermelon", "rarity": "legendary", "min": 640, "max": 780, "image": "assets/items/food/glistering_watermelon.png" },
+        { "id": "golden_apple", "name": "Golden Apple", "rarity": "legendary", "min": 640, "max": 765, "image": "assets/items/food/golden_apple.png" }
+      ]
+    },
+
+    {
+      "id": "swords",
+      "name": "Swords Case",
+      "price": 35,
+      "items": [
+        { "id": "wooden_sword", "name": "Wooden Sword", "rarity": "common", "min": 3, "max": 5, "image": "assets/items/swords/wooden_sword.png" },
+        { "id": "stone_sword", "name": "Stone Sword", "rarity": "common", "min": 4, "max": 7, "image": "assets/items/swords/stone_sword.png" },
+
+        { "id": "iron_sword", "name": "Iron Sword", "rarity": "uncommon", "min": 12, "max": 20, "image": "assets/items/swords/iron_sword.png" },
+        { "id": "redstone_sword", "name": "Redstone Sword", "rarity": "uncommon", "min": 30, "max": 40, "image": "assets/items/swords/redstone_sword.png" },
+
+        { "id": "lapis_sword", "name": "Lapis Lazuli Sword", "rarity": "rare", "min": 50, "max": 60, "image": "assets/items/swords/lapis_sword.png" },
+        { "id": "golden_mini_sword", "name": "Golden Mini-Sword", "rarity": "rare", "min": 90, "max": 165, "image": "assets/items/swords/golden_mini_sword.png" },
+        { "id": "golden_sword", "name": "Golden Sword", "rarity": "rare", "min": 100, "max": 175, "image": "assets/items/swords/golden_sword.png" },
+
+        { "id": "ender_sword", "name": "Ender Sword", "rarity": "superrare", "min": 200, "max": 250, "image": "assets/items/swords/ender_sword.png" },
+        { "id": "diamond_mini_sword", "name": "Diamond Mini-Sword", "rarity": "superrare", "min": 480, "max": 880, "image": "assets/items/swords/diamond_mini_sword.png" },
+        { "id": "diamond_sword", "name": "Diamond Sword", "rarity": "superrare", "min": 560, "max": 940, "image": "assets/items/swords/diamond_sword.png" },
+
+        { "id": "emerald_mini_sword", "name": "Emerald Mini-Sword", "rarity": "legendary", "min": 1400, "max": 2900, "image": "assets/items/swords/emerald_mini_sword.png" },
+        { "id": "emerald_sword", "name": "Emerald Sword", "rarity": "legendary", "min": 1500, "max": 3000, "image": "assets/items/swords/emerald_sword.png" }
+      ]
+    },
+
+    {
+      "id": "shooting",
+      "name": "Shooting Case",
+      "price": 40,
+      "items": [
+        { "id": "arrow", "name": "Arrow", "rarity": "common", "min": 3, "max": 8, "image": "assets/items/shooting/arrow.png" },
+        { "id": "wooden_bow", "name": "Wooden Bow", "rarity": "common", "min": 4, "max": 12, "image": "assets/items/shooting/wooden_bow.png" },
+        { "id": "wooden_crossbow", "name": "Wooden Crossbow", "rarity": "common", "min": 7, "max": 16, "image": "assets/items/shooting/wooden_crossbow.png" },
+
+        { "id": "trident", "name": "Trident", "rarity": "uncommon", "min": 13, "max": 22, "image": "assets/items/shooting/trident.png" },
+
+        { "id": "golden_arrow", "name": "Golden Arrow", "rarity": "rare", "min": 25, "max": 40, "image": "assets/items/shooting/golden_arrow.png" },
+
+        { "id": "diamond_arrow", "name": "Diamond Arrow", "rarity": "superrare", "min": 50, "max": 150, "image": "assets/items/shooting/diamond_arrow.png" },
+        { "id": "golden_trident", "name": "Golden Trident", "rarity": "superrare", "min": 450, "max": 650, "image": "assets/items/shooting/golden_trident.png" },
+
+        { "id": "emerald_bow", "name": "Emerald Bow", "rarity": "legendary", "min": 950, "max": 1500, "image": "assets/items/shooting/emerald_bow.png" },
+        { "id": "emerald_crossbow", "name": "Emerald Crossbow", "rarity": "legendary", "min": 1250, "max": 1750, "image": "assets/items/shooting/emerald_crossbow.png" },
+        { "id": "emerald_trident", "name": "Emerald Trident", "rarity": "legendary", "min": 1500, "max": 2300, "image": "assets/items/shooting/emerald_trident.png" }
+      ]
+    },
+
+    {
+      "id": "music",
+      "name": "Music Case",
+      "price": 60,
+      "items": [
+        { "id": "disc_1", "name": "Disc 1", "rarity": "common", "min": 8, "max": 20, "image": "assets/items/music/disc_1.png" },
+
+        { "id": "disc_2", "name": "Disc 2", "rarity": "uncommon", "min": 25, "max": 50, "image": "assets/items/music/disc_2.png" },
+        { "id": "disc_3", "name": "Disc 3", "rarity": "uncommon", "min": 25, "max": 51, "image": "assets/items/music/disc_3.png" },
+        { "id": "disc_4", "name": "Disc 4", "rarity": "uncommon", "min": 25, "max": 52, "image": "assets/items/music/disc_4.png" },
+        { "id": "disc_5", "name": "Disc 5", "rarity": "uncommon", "min": 25, "max": 53, "image": "assets/items/music/disc_5.png" },
+        { "id": "disc_6", "name": "Disc 6", "rarity": "uncommon", "min": 25, "max": 54, "image": "assets/items/music/disc_6.png" },
+        { "id": "disc_7", "name": "Disc 7", "rarity": "uncommon", "min": 25, "max": 54, "image": "assets/items/music/disc_7.png" },
+        { "id": "disc_8", "name": "Disc 8", "rarity": "uncommon", "min": 25, "max": 55, "image": "assets/items/music/disc_8.png" },
+
+        { "id": "disc_9", "name": "Disc 9", "rarity": "rare", "min": 200, "max": 330, "image": "assets/items/music/disc_9.png" },
+        { "id": "disc_10", "name": "Disc 10", "rarity": "rare", "min": 300, "max": 550, "image": "assets/items/music/disc_10.png" },
+
+        { "id": "disc_11", "name": "Disc 11", "rarity": "superrare", "min": 550, "max": 740, "image": "assets/items/music/disc_11.png" },
+
+        { "id": "disc_12", "name": "Disc 12", "rarity": "legendary", "min": 800, "max": 1000, "image": "assets/items/music/disc_12.png" },
+        { "id": "disc_13", "name": "Disc 13", "rarity": "legendary", "min": 950, "max": 1100, "image": "assets/items/music/disc_13.png" }
+      ]
+    },
+
+    {
+      "id": "armor",
+      "name": "Armor Case",
+      "price": 110,
+      "items": [
+        { "id": "leather_boots", "name": "Leather Boots", "rarity": "common", "min": 10, "max": 22, "image": "assets/items/armor/leather_boots.png" },
+        { "id": "leather_helmet", "name": "Leather Helmet", "rarity": "common", "min": 11, "max": 23, "image": "assets/items/armor/leather_helmet.png" },
+        { "id": "leather_leggings", "name": "Leather Leggings", "rarity": "common", "min": 13, "max": 25, "image": "assets/items/armor/leather_leggings.png" },
+        { "id": "leather_chestplate", "name": "Leather Chestplate", "rarity": "common", "min": 15, "max": 25, "image": "assets/items/armor/leather_chestplate.png" },
+
+        { "id": "iron_boots", "name": "Iron Boots", "rarity": "uncommon", "min": 35, "max": 65, "image": "assets/items/armor/iron_boots.png" },
+        { "id": "iron_helmet", "name": "Iron Helmet", "rarity": "uncommon", "min": 35, "max": 65, "image": "assets/items/armor/iron_helmet.png" },
+        { "id": "iron_leggings", "name": "Iron Leggings", "rarity": "uncommon", "min": 35, "max": 70, "image": "assets/items/armor/iron_leggings.png" },
+        { "id": "iron_chestplate", "name": "Iron Chestplate", "rarity": "uncommon", "min": 35, "max": 70, "image": "assets/items/armor/iron_chestplate.png" },
+        { "id": "golden_boots", "name": "Golden Boots", "rarity": "uncommon", "min": 50, "max": 80, "image": "assets/items/armor/golden_boots.png" },
+        { "id": "golden_helmet", "name": "Golden Helmet", "rarity": "uncommon", "min": 50, "max": 80, "image": "assets/items/armor/golden_helmet.png" },
+        { "id": "golden_leggings", "name": "Golden Leggings", "rarity": "uncommon", "min": 50, "max": 85, "image": "assets/items/armor/golden_leggings.png" },
+        { "id": "golden_chestplate", "name": "Golden Chestplate", "rarity": "uncommon", "min": 50, "max": 90, "image": "assets/items/armor/golden_chestplate.png" },
+
+        { "id": "chainmail_boots", "name": "Chainmail Boots", "rarity": "rare", "min": 280, "max": 480, "image": "assets/items/armor/chainmail_boots.png" },
+        { "id": "chainmail_helmet", "name": "Chainmail Helmet", "rarity": "rare", "min": 290, "max": 480, "image": "assets/items/armor/chainmail_helmet.png" },
+        { "id": "chainmail_leggings", "name": "Chainmail Leggings", "rarity": "rare", "min": 300, "max": 490, "image": "assets/items/armor/chainmail_leggings.png" },
+        { "id": "chainmail_chestplate", "name": "Chainmail Chestplate", "rarity": "rare", "min": 320, "max": 500, "image": "assets/items/armor/chainmail_chestplate.png" },
+
+        { "id": "diamond_boots", "name": "Diamond Boots", "rarity": "superrare", "min": 730, "max": 850, "image": "assets/items/armor/diamond_boots.png" },
+        { "id": "diamond_helmet", "name": "Diamond Helmet", "rarity": "superrare", "min": 750, "max": 860, "image": "assets/items/armor/diamond_helmet.png" },
+        { "id": "diamond_leggings", "name": "Diamond Leggings", "rarity": "superrare", "min": 770, "max": 870, "image": "assets/items/armor/diamond_leggings.png" },
+        { "id": "diamond_chestplate", "name": "Diamond Chestplate", "rarity": "superrare", "min": 800, "max": 900, "image": "assets/items/armor/diamond_chestplate.png" },
+        { "id": "turtle_shell", "name": "Turtle Shell", "rarity": "superrare", "min": 1000, "max": 1100, "image": "assets/items/armor/turtle_shell.png" },
+
+        { "id": "emerald_boots", "name": "Emerald Boots", "rarity": "legendary", "min": 1800, "max": 2000, "image": "assets/items/armor/emerald_boots.png" },
+        { "id": "emerald_helmet", "name": "Emerald Helmet", "rarity": "legendary", "min": 1900, "max": 2100, "image": "assets/items/armor/emerald_helmet.png" },
+        { "id": "emerald_leggings", "name": "Emerald Leggings", "rarity": "legendary", "min": 2000, "max": 2200, "image": "assets/items/armor/emerald_leggings.png" },
+        { "id": "emerald_chestplate", "name": "Emerald Chestplate", "rarity": "legendary", "min": 2100, "max": 2400, "image": "assets/items/armor/emerald_chestplate.png" },
+        { "id": "elytra", "name": "Elytra", "rarity": "legendary", "min": 2650, "max": 3000, "image": "assets/items/armor/elytra.png" }
+      ]
+    },
+
+    {
+      "id": "blocks",
+      "name": "Blocks Case",
+      "price": 150,
+      "items": [
+        { "id": "crafting_table", "name": "Crafting Table", "rarity": "common", "min": 40, "max": 55, "image": "assets/items/blocks/crafting_table.png" },
+        { "id": "chest", "name": "Chest", "rarity": "common", "min": 55, "max": 60, "image": "assets/items/blocks/chest.png" },
+        { "id": "furnace", "name": "Furnace", "rarity": "common", "min": 55, "max": 65, "image": "assets/items/blocks/furnace.png" },
+
+        { "id": "iron_block", "name": "Iron Block", "rarity": "uncommon", "min": 70, "max": 95, "image": "assets/items/blocks/iron_block.png" },
+        { "id": "bookshelf", "name": "Bookshelf", "rarity": "uncommon", "min": 80, "max": 100, "image": "assets/items/blocks/bookshelf.png" },
+        { "id": "pumpkin", "name": "Pumpkin", "rarity": "uncommon", "min": 90, "max": 110, "image": "assets/items/blocks/pumpkin.png" },
+        { "id": "redstone_block", "name": "Redstone Block", "rarity": "uncommon", "min": 100, "max": 120, "image": "assets/items/blocks/redstone_block.png" },
+
+        { "id": "golden_block", "name": "Golden Block", "rarity": "rare", "min": 300, "max": 550, "image": "assets/items/blocks/golden_block.png" },
+        { "id": "obsidian_block", "name": "Obsidian Block", "rarity": "rare", "min": 700, "max": 800, "image": "assets/items/blocks/obsidian_block.png" },
+        { "id": "tnt", "name": "TNT", "rarity": "rare", "min": 820, "max": 900, "image": "assets/items/blocks/tnt.png" },
+        { "id": "sponge", "name": "Sponge", "rarity": "rare", "min": 800, "max": 950, "image": "assets/items/blocks/sponge.png" },
+
+        { "id": "diamond_block", "name": "Diamond Block", "rarity": "superrare", "min": 2000, "max": 2300, "image": "assets/items/blocks/diamond_block.png" },
+        { "id": "slime_block", "name": "Slime Block", "rarity": "superrare", "min": 2300, "max": 2800, "image": "assets/items/blocks/slime_block.png" },
+        { "id": "ender_block", "name": "Ender Block", "rarity": "superrare", "min": 2600, "max": 3200, "image": "assets/items/blocks/ender_block.png" },
+
+        { "id": "emerald_block", "name": "Emerald Block", "rarity": "legendary", "min": 8200, "max": 8800, "image": "assets/items/blocks/emerald_block.png" },
+        { "id": "beacon", "name": "Beacon", "rarity": "legendary", "min": 8500, "max": 9300, "image": "assets/items/blocks/beacon.png" }
+      ]
+    },
+
+    {
+      "id": "potion",
+      "name": "Potion Case",
+      "price": 300,
+      "items": [
+        { "id": "water_bottle", "name": "Water Bottle", "rarity": "common", "min": 60, "max": 75, "image": "assets/items/potion/water_bottle.png" },
+        { "id": "awkward_potion", "name": "Awkward Potion", "rarity": "common", "min": 60, "max": 80, "image": "assets/items/potion/awkward_potion.png" },
+        { "id": "mundane_potion", "name": "Mundane Potion", "rarity": "common", "min": 60, "max": 80, "image": "assets/items/potion/mundane_potion.png" },
+
+        { "id": "potion_regeneration", "name": "Potion of Regeneration", "rarity": "uncommon", "min": 100, "max": 120, "image": "assets/items/potion/potion_regeneration.png" },
+        { "id": "potion_healing", "name": "Potion of Healing", "rarity": "uncommon", "min": 100, "max": 130, "image": "assets/items/potion/potion_healing.png" },
+        { "id": "potion_slowness", "name": "Potion of Slowness", "rarity": "uncommon", "min": 100, "max": 130, "image": "assets/items/potion/potion_slowness.png" },
+
+        { "id": "potion_harming", "name": "Potion of Harming", "rarity": "rare", "min": 120, "max": 155, "image": "assets/items/potion/potion_harming.png" },
+        { "id": "potion_poison", "name": "Potion of Poison", "rarity": "rare", "min": 120, "max": 160, "image": "assets/items/potion/potion_poison.png" },
+        { "id": "potion_strength", "name": "Potion of Strength", "rarity": "rare", "min": 125, "max": 168, "image": "assets/items/potion/potion_strength.png" },
+
+        { "id": "splash_weaving", "name": "Splash Potion of Weaving", "rarity": "superrare", "min": 300, "max": 340, "image": "assets/items/potion/splash_weaving.png" },
+        { "id": "potion_swiftness", "name": "Potion of Swiftness", "rarity": "superrare", "min": 900, "max": 1400, "image": "assets/items/potion/potion_swiftness.png" },
+        { "id": "potion_infestation", "name": "Potion of Infestation", "rarity": "superrare", "min": 6000, "max": 9000, "image": "assets/items/potion/potion_infestation.png" },
+
+        { "id": "potion_oozing", "name": "Potion of Oozing", "rarity": "legendary", "min": 10000, "max": 10100, "image": "assets/items/potion/potion_oozing.png" },
+        { "id": "splash_invisibility", "name": "Splash Potion of Invisibility", "rarity": "legendary", "min": 12000, "max": 12200, "image": "assets/items/potion/splash_invisibility.png" }
+      ]
+    },
+
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe Case",
+      "price": 800,
+      "items": [
+        { "id": "wooden_pickaxe", "name": "Wooden Pickaxe", "rarity": "common", "min": 60, "max": 90, "image": "assets/items/pickaxe/wooden_pickaxe.png" },
+        { "id": "stone_pickaxe", "name": "Stone Pickaxe", "rarity": "common", "min": 90, "max": 150, "image": "assets/items/pickaxe/stone_pickaxe.png" },
+        { "id": "oak_leaf_pickaxe", "name": "Oak Leave Pickaxe", "rarity": "common", "min": 90, "max": 180, "image": "assets/items/pickaxe/oak_leaf_pickaxe.png" },
+
+        { "id": "copper_pickaxe", "name": "Copper Pickaxe", "rarity": "uncommon", "min": 200, "max": 400, "image": "assets/items/pickaxe/copper_pickaxe.png" },
+        { "id": "purple_pickaxe", "name": "Purple Pickaxe", "rarity": "uncommon", "min": 300, "max": 390, "image": "assets/items/pickaxe/purple_pickaxe.png" },
+        { "id": "flower_pickaxe", "name": "Flower Pickaxe", "rarity": "uncommon", "min": 400, "max": 600, "image": "assets/items/pickaxe/flower_pickaxe.png" },
+        { "id": "jelly_pickaxe", "name": "Jelly Pickaxe", "rarity": "uncommon", "min": 500, "max": 550, "image": "assets/items/pickaxe/jelly_pickaxe.png" },
+
+        { "id": "iron_pickaxe", "name": "Iron Pickaxe", "rarity": "rare", "min": 700, "max": 850, "image": "assets/items/pickaxe/iron_pickaxe.png" },
+        { "id": "golden_pickaxe", "name": "Golden Pickaxe", "rarity": "rare", "min": 1000, "max": 2500, "image": "assets/items/pickaxe/golden_pickaxe.png" },
+
+        { "id": "amethyst_pickaxe", "name": "Amethyst Pickaxe", "rarity": "superrare", "min": 6000, "max": 9000, "image": "assets/items/pickaxe/amethyst_pickaxe.png" },
+        { "id": "diamond_pickaxe", "name": "Diamond Pickaxe", "rarity": "superrare", "min": 5000, "max": 9000, "image": "assets/items/pickaxe/diamond_pickaxe.png" },
+
+        { "id": "emerald_pickaxe", "name": "Emerald Pickaxe", "rarity": "legendary", "min": 10000, "max": 16000, "image": "assets/items/pickaxe/emerald_pickaxe.png" },
+        { "id": "netherite_pickaxe", "name": "Netherite Pickaxe", "rarity": "legendary", "min": 15000, "max": 19200, "image": "assets/items/pickaxe/netherite_pickaxe.png" }
+      ]
+    },
+
+    {
+      "id": "mob",
+      "name": "Mob Case",
+      "price": 1400,
+      "items": [
+        { "id": "zombie", "name": "Zombie", "rarity": "common", "min": 300, "max": 350, "image": "assets/items/mob/zombie.png" },
+        { "id": "creeper", "name": "Creeper", "rarity": "common", "min": 350, "max": 400, "image": "assets/items/mob/creeper.png" },
+        { "id": "skeleton", "name": "Skeleton", "rarity": "common", "min": 400, "max": 500, "image": "assets/items/mob/skeleton.png" },
+
+        { "id": "spider", "name": "Spider", "rarity": "uncommon", "min": 700, "max": 750, "image": "assets/items/mob/spider.png" },
+        { "id": "drowned", "name": "Drowned", "rarity": "uncommon", "min": 750, "max": 760, "image": "assets/items/mob/drowned.png" },
+        { "id": "husk", "name": "Husk", "rarity": "uncommon", "min": 760, "max": 780, "image": "assets/items/mob/husk.png" },
+
+        { "id": "spider_jockey", "name": "Spider Jockey", "rarity": "rare", "min": 1000, "max": 3000, "image": "assets/items/mob/spider_jockey.png" },
+        { "id": "armadillo", "name": "Armadillo", "rarity": "rare", "min": 3000, "max": 6000, "image": "assets/items/mob/armadillo.png" },
+
+        { "id": "warden", "name": "Warden", "rarity": "superrare", "min": 9000, "max": 16000, "image": "assets/items/mob/warden.png" },
+        { "id": "elder_guardian", "name": "Elder Guardian", "rarity": "superrare", "min": 16000, "max": 19000, "image": "assets/items/mob/elder_guardian.png" },
+
+        { "id": "ender_dragon", "name": "Ender Dragon", "rarity": "legendary", "min": 23000, "max": 25000, "image": "assets/items/mob/ender_dragon.png" },
+        { "id": "wither", "name": "Wither", "rarity": "legendary", "min": 26000, "max": 29000, "image": "assets/items/mob/wither.png" },
+        { "id": "chicken_jockey", "name": "Chicken Jockey", "rarity": "legendary", "min": 30000, "max": 30000, "image": "assets/items/mob/chicken_jockey.png" }
+      ]
+    }
+  ]
+}
